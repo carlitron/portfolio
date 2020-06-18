@@ -1,0 +1,195 @@
+@import url("https://use.typekit.net/ynv0ezl.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+}
+
+*:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  padding: 0;
+  background: #0e0e0e;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: hatch, serif;
+}
+
+section {
+  padding: 25px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .section-title {
+  color: tomato;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 1rem;
+}
+
+section.logo {
+  background: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 50px 100px;
+  }
+  section .section-title {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.top-header .main-logo {
+  max-width: 350px;
+  min-width: 150px;
+  width: 100%;
+}
+
+.top-header a {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top-header a {
+    display: inline-block;
+    color: tomato;
+  }
+}
+
+.display-title {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .display-title {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+.portfolio-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portfolio-list li {
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 0;
+}
+
+.portfolio-list li:last-of-type {
+  border-bottom: none;
+}
+
+.portfolio-list li:hover a, .portfolio-list li:active a, .portfolio-list li:focus a {
+  color: tomato;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.portfolio-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.75rem;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  display: block;
+}
+
+.portfolio-list li .item-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio-list li .item-header .site-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-wrapper img {
+  max-width: 100%;
+}
+
+footer {
+  border-top: 1px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+footer .footer-link {
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+/*# sourceMappingURL=style.css.map */
